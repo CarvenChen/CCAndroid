@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -14,6 +13,7 @@
             <option value="$PROJECT_DIR$/02-relativelayout" />
             <option value="$PROJECT_DIR$/03-linerlayout" />
             <option value="$PROJECT_DIR$/04-framelayout" />
+            <option value="$PROJECT_DIR$/05-tablelayout" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
