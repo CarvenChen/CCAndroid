@@ -1,0 +1,4 @@
+rootProject.name='CCDemo01'
+include ':app'
+include ':01-helloworldmodule'
+include ':02-relativelayout'

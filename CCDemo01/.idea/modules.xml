@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-helloworldmodule/01-helloworldmodule.iml" filepath="$PROJECT_DIR$/01-helloworldmodule/01-helloworldmodule.iml" group="CCDemo01/01-helloworldmodule" />
+      <module fileurl="file://$PROJECT_DIR$/02-relativelayout/02-relativelayout.iml" filepath="$PROJECT_DIR$/02-relativelayout/02-relativelayout.iml" group="CCDemo01/02-relativelayout" />
+      <module fileurl="file://$PROJECT_DIR$/CCDemo01.iml" filepath="$PROJECT_DIR$/CCDemo01.iml" group="CCDemo01" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CCDemo01/app" />
+    </modules>
+  </component>
+</project>
