@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/01-helloworldmodule" />
             <option value="$PROJECT_DIR$/02-relativelayout" />
+            <option value="$PROJECT_DIR$/03-linerlayout" />
+            <option value="$PROJECT_DIR$/04-framelayout" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
