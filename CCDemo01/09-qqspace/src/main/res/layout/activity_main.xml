@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="说点什么吧"
+        android:lines="6"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="111"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:layout_margin="8dp"
+        android:drawableLeft="@mipmap/drawable"
+        android:drawablePadding="8dp"/>
+
+</LinearLayout>

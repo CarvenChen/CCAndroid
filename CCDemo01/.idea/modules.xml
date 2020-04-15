@@ -7,6 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$/03-linerlayout/03-linerlayout.iml" filepath="$PROJECT_DIR$/03-linerlayout/03-linerlayout.iml" group="CCDemo01/03-linerlayout" />
       <module fileurl="file://$PROJECT_DIR$/04-framelayout/04-framelayout.iml" filepath="$PROJECT_DIR$/04-framelayout/04-framelayout.iml" group="CCDemo01/04-framelayout" />
       <module fileurl="file://$PROJECT_DIR$/05-tablelayout/05-tablelayout.iml" filepath="$PROJECT_DIR$/05-tablelayout/05-tablelayout.iml" group="CCDemo01/05-tablelayout" />
+      <module fileurl="file://$PROJECT_DIR$/06-gridelayout/06-gridelayout.iml" filepath="$PROJECT_DIR$/06-gridelayout/06-gridelayout.iml" group="CCDemo01/06-gridelayout" />
+      <module fileurl="file://$PROJECT_DIR$/07-layouts/07-layouts.iml" filepath="$PROJECT_DIR$/07-layouts/07-layouts.iml" group="CCDemo01/07-layouts" />
+      <module fileurl="file://$PROJECT_DIR$/08-editfield/08-editfield.iml" filepath="$PROJECT_DIR$/08-editfield/08-editfield.iml" group="CCDemo01/08-editfield" />
+      <module fileurl="file://$PROJECT_DIR$/09-qqspace/09-qqspace.iml" filepath="$PROJECT_DIR$/09-qqspace/09-qqspace.iml" group="CCDemo01/09-qqspace" />
+      <module fileurl="file://$PROJECT_DIR$/10-ccdian9/10-ccdian9.iml" filepath="$PROJECT_DIR$/10-ccdian9/10-ccdian9.iml" group="CCDemo01/10-ccdian9" />
       <module fileurl="file://$PROJECT_DIR$/CCDemo01.iml" filepath="$PROJECT_DIR$/CCDemo01.iml" group="CCDemo01" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CCDemo01/app" />
     </modules>

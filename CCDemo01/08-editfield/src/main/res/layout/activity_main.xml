@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_column="6"
+    android:background="@mipmap/ic_launcher"
+    tools:context=".MainActivity">
+
+    <!--    layout_columnSpan 跨列数量  -->
+<!--    <ImageView-->
+<!--        android:id="@+id/icon1"-->
+<!--        android:src="@mipmap/header_icon"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:layout_column="1"-->
+<!--        android:layout_columnSpan="4"-->
+<!--        android:layout_row="0"-->
+<!--        android:layout_marginRight="5dp"-->
+<!--        android:background="#FF0000"-->
+<!--        />-->
+
+    <TextView
+        android:background="@drawable/main_test"
+        android:maxWidth="280dp"
+        android:layout_height="wrap_content"
+        android:text="看蒙了看美国法律课文公婆是代码V领代码v"
+        android:layout_gravity="end"
+        android:layout_columnSpan="4"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:paddingTop="25dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/content1"
+        android:src="@mipmap/header_icon"
+        android:layout_column="5"
+        android:layout_row="0"
+        />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:src="@mipmap/header_icon"
+        android:layout_gravity="start"
+        android:layout_column="1"
+        android:layout_columnSpan="4"
+        android:layout_row="1"
+        android:layout_marginLeft="5dp"
+        android:background="#FF0000"
+        />
+
+    <ImageView
+        android:id="@+id/content2"
+        android:src="@mipmap/header_icon"
+        android:layout_column="0"
+        android:layout_row="1"
+        />
+
+</GridLayout>

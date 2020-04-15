@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_column="6"
+    android:background="@mipmap/ic_launcher"
+    tools:context=".MainActivity">
+
+<!--    layout_columnSpan 跨列数量  -->
+    <ImageView
+        android:id="@+id/icon1"
+        android:src="@mipmap/header_icon"
+        android:layout_gravity="end"
+        android:layout_column="1"
+        android:layout_columnSpan="4"
+        android:layout_row="0"
+        android:layout_marginRight="5dp"
+        android:background="#FF0000"
+        />
+
+    <ImageView
+        android:id="@+id/content1"
+        android:src="@mipmap/header_icon"
+        android:layout_column="5"
+        android:layout_row="0"
+        />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:src="@mipmap/header_icon"
+        android:layout_gravity="start"
+        android:layout_column="1"
+        android:layout_columnSpan="4"
+        android:layout_row="1"
+        android:layout_marginLeft="5dp"
+        android:background="#FF0000"
+        />
+
+    <ImageView
+        android:id="@+id/content2"
+        android:src="@mipmap/header_icon"
+        android:layout_column="0"
+        android:layout_row="1"
+        />
+
+</GridLayout>
