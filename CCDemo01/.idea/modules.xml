@@ -12,8 +12,14 @@
       <module fileurl="file://$PROJECT_DIR$/08-editfield/08-editfield.iml" filepath="$PROJECT_DIR$/08-editfield/08-editfield.iml" group="CCDemo01/08-editfield" />
       <module fileurl="file://$PROJECT_DIR$/09-qqspace/09-qqspace.iml" filepath="$PROJECT_DIR$/09-qqspace/09-qqspace.iml" group="CCDemo01/09-qqspace" />
       <module fileurl="file://$PROJECT_DIR$/10-ccdian9/10-ccdian9.iml" filepath="$PROJECT_DIR$/10-ccdian9/10-ccdian9.iml" group="CCDemo01/10-ccdian9" />
+      <module fileurl="file://$PROJECT_DIR$/11-button/11-button.iml" filepath="$PROJECT_DIR$/11-button/11-button.iml" group="CCDemo01/11-button" />
+      <module fileurl="file://$PROJECT_DIR$/12-radiobox/12-radiobox.iml" filepath="$PROJECT_DIR$/12-radiobox/12-radiobox.iml" group="CCDemo01/12-radiobox" />
+      <module fileurl="file://$PROJECT_DIR$/13-checkbox/13-checkbox.iml" filepath="$PROJECT_DIR$/13-checkbox/13-checkbox.iml" group="CCDemo01/13-checkbox" />
+      <module fileurl="file://$PROJECT_DIR$/14-datepicker/14-datepicker.iml" filepath="$PROJECT_DIR$/14-datepicker/14-datepicker.iml" group="CCDemo01/14-datepicker" />
+      <module fileurl="file://$PROJECT_DIR$/15-timepicker/15-timepicker.iml" filepath="$PROJECT_DIR$/15-timepicker/15-timepicker.iml" group="CCDemo01/15-timepicker" />
       <module fileurl="file://$PROJECT_DIR$/CCDemo01.iml" filepath="$PROJECT_DIR$/CCDemo01.iml" group="CCDemo01" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CCDemo01/app" />
+      <module fileurl="file://$PROJECT_DIR$/timer/timer.iml" filepath="$PROJECT_DIR$/timer/timer.iml" group="CCDemo01/timer" />
     </modules>
   </component>
 </project>

@@ -20,7 +20,13 @@
             <option value="$PROJECT_DIR$/08-editfield" />
             <option value="$PROJECT_DIR$/09-qqspace" />
             <option value="$PROJECT_DIR$/10-ccdian9" />
+            <option value="$PROJECT_DIR$/11-button" />
+            <option value="$PROJECT_DIR$/12-radiobox" />
+            <option value="$PROJECT_DIR$/13-checkbox" />
+            <option value="$PROJECT_DIR$/14-datepicker" />
+            <option value="$PROJECT_DIR$/15-timepicker" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/timer" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
