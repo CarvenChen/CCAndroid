@@ -20,6 +20,11 @@
       <module fileurl="file://$PROJECT_DIR$/16-timer/16-timer.iml" filepath="$PROJECT_DIR$/16-timer/16-timer.iml" group="CCDemo01/16-timer" />
       <module fileurl="file://$PROJECT_DIR$/17-progressbar/17-progressbar.iml" filepath="$PROJECT_DIR$/17-progressbar/17-progressbar.iml" group="CCDemo01/17-progressbar" />
       <module fileurl="file://$PROJECT_DIR$/18-seekbar/18-seekbar.iml" filepath="$PROJECT_DIR$/18-seekbar/18-seekbar.iml" group="CCDemo01/18-seekbar" />
+      <module fileurl="file://$PROJECT_DIR$/19-imageswitch/19-imageswitch.iml" filepath="$PROJECT_DIR$/19-imageswitch/19-imageswitch.iml" group="CCDemo01/19-imageswitch" />
+      <module fileurl="file://$PROJECT_DIR$/20-gridview/20-gridview.iml" filepath="$PROJECT_DIR$/20-gridview/20-gridview.iml" group="CCDemo01/20-gridview" />
+      <module fileurl="file://$PROJECT_DIR$/21-listview/21-listview.iml" filepath="$PROJECT_DIR$/21-listview/21-listview.iml" group="CCDemo01/21-listview" />
+      <module fileurl="file://$PROJECT_DIR$/22-adapter/22-adapter.iml" filepath="$PROJECT_DIR$/22-adapter/22-adapter.iml" group="CCDemo01/22-adapter" />
+      <module fileurl="file://$PROJECT_DIR$/23-baseadapter/23-baseadapter.iml" filepath="$PROJECT_DIR$/23-baseadapter/23-baseadapter.iml" group="CCDemo01/23-baseadapter" />
       <module fileurl="file://$PROJECT_DIR$/CCDemo01.iml" filepath="$PROJECT_DIR$/CCDemo01.iml" group="CCDemo01" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CCDemo01/app" />
     </modules>

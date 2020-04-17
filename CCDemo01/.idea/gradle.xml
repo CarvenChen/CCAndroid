@@ -28,6 +28,11 @@
             <option value="$PROJECT_DIR$/16-timer" />
             <option value="$PROJECT_DIR$/17-progressbar" />
             <option value="$PROJECT_DIR$/18-seekbar" />
+            <option value="$PROJECT_DIR$/19-imageswitch" />
+            <option value="$PROJECT_DIR$/20-gridview" />
+            <option value="$PROJECT_DIR$/21-listview" />
+            <option value="$PROJECT_DIR$/22-adapter" />
+            <option value="$PROJECT_DIR$/23-baseadapter" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
