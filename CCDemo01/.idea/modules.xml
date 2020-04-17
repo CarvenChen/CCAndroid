@@ -17,9 +17,11 @@
       <module fileurl="file://$PROJECT_DIR$/13-checkbox/13-checkbox.iml" filepath="$PROJECT_DIR$/13-checkbox/13-checkbox.iml" group="CCDemo01/13-checkbox" />
       <module fileurl="file://$PROJECT_DIR$/14-datepicker/14-datepicker.iml" filepath="$PROJECT_DIR$/14-datepicker/14-datepicker.iml" group="CCDemo01/14-datepicker" />
       <module fileurl="file://$PROJECT_DIR$/15-timepicker/15-timepicker.iml" filepath="$PROJECT_DIR$/15-timepicker/15-timepicker.iml" group="CCDemo01/15-timepicker" />
+      <module fileurl="file://$PROJECT_DIR$/16-timer/16-timer.iml" filepath="$PROJECT_DIR$/16-timer/16-timer.iml" group="CCDemo01/16-timer" />
+      <module fileurl="file://$PROJECT_DIR$/17-progressbar/17-progressbar.iml" filepath="$PROJECT_DIR$/17-progressbar/17-progressbar.iml" group="CCDemo01/17-progressbar" />
+      <module fileurl="file://$PROJECT_DIR$/18-seekbar/18-seekbar.iml" filepath="$PROJECT_DIR$/18-seekbar/18-seekbar.iml" group="CCDemo01/18-seekbar" />
       <module fileurl="file://$PROJECT_DIR$/CCDemo01.iml" filepath="$PROJECT_DIR$/CCDemo01.iml" group="CCDemo01" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CCDemo01/app" />
-      <module fileurl="file://$PROJECT_DIR$/timer/timer.iml" filepath="$PROJECT_DIR$/timer/timer.iml" group="CCDemo01/timer" />
     </modules>
   </component>
 </project>

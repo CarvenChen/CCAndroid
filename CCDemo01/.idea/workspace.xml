@@ -7,162 +7,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1f0b5a9-deb7-4a32-bfae-5dd6d67a5523" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11-button/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/11-button.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/androidTest/java/com/example/a11_button/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/java/com/example/a11_button/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-button/src/test/java/com/example/a11_button/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/12-radiobox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/androidTest/java/com/example/a12_radiobox/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/java/com/example/a12_radiobox/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-radiobox/src/test/java/com/example/a12_radiobox/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/13-checkbox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/androidTest/java/com/example/a13_checkbox/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/java/com/example/a13_checkbox/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-checkbox/src/test/java/com/example/a13_checkbox/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/14-datepicker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/androidTest/java/com/example/a14_datepicker/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/java/com/example/a14_datepicker/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-datepicker/src/test/java/com/example/a14_datepicker/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/15-timepicker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/androidTest/java/com/example/a15_timepicker/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/java/com/example/a15_timepicker/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15-timepicker/src/test/java/com/example/a15_timepicker/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/androidTest/java/com/example/timer/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/java/com/example/timer/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/src/test/java/com/example/timer/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer/timer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-timer/src/main/java/com/example/timer/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16-timer/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/17-progressbar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/androidTest/java/com/example/a17_progressbar/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-hdpi/cc_sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-xhdpi/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17-progressbar/src/test/java/com/example/a17_progressbar/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/18-seekbar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/androidTest/java/com/example/a18_seekbar/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/java/com/example/a18_seekbar/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-seekbar/src/test/java/com/example/a18_seekbar/ExampleUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -178,7 +77,49 @@
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-helloworldmodule/01-helloworldmodule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/01-helloworldmodule/01-helloworldmodule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-relativelayout/02-relativelayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-relativelayout/02-relativelayout.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-linerlayout/03-linerlayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-linerlayout/03-linerlayout.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-framelayout/04-framelayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04-framelayout/04-framelayout.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-TableLayout/05-TableLayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-TableLayout/05-TableLayout.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-GrideLayout/06-GrideLayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/06-GrideLayout/06-GrideLayout.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-layouts/07-layouts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/07-layouts/07-layouts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-editfield/08-editfield.iml" beforeDir="false" afterPath="$PROJECT_DIR$/08-editfield/08-editfield.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-qqspace/09-qqspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09-qqspace/09-qqspace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-ccdian9/10-ccdian9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/10-ccdian9/10-ccdian9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-button/11-button.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11-button/11-button.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-radiobox/12-radiobox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12-radiobox/12-radiobox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-checkbox/13-checkbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13-checkbox/13-checkbox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-datepicker/14-datepicker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14-datepicker/14-datepicker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15-timepicker/15-timepicker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/15-timepicker/15-timepicker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/androidTest/java/com/example/timer/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/androidTest/java/com/example/timer/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/java/com/example/timer/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/17-progressbar/src/main/java/com/example/a17_progressbar/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/src/test/java/com/example/timer/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/src/test/java/com/example/timer/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer/timer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/16-timer/16-timer.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,20 +150,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/09-qqspace/src/main/res/mipmap-mdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09-qqspace/src/main/res/mipmap-mdpi" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-hdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-hdpi" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-hdpi" />
+      <recent name="$PROJECT_DIR$/17-progressbar/src/main/res/mipmap-xhdpi" />
       <recent name="$PROJECT_DIR$/09-qqspace/src/main/res/mipmap-mdpi" />
       <recent name="$PROJECT_DIR$/10-ccdian9/src/main/res/mipmap-hdpi" />
       <recent name="$PROJECT_DIR$/10-ccdian9/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/10-ccdian9/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/08-editfield/src/main/res/drawable-v24" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.timer">
+  <component name="RunManager" selected="Android App.18-seekbar">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1010,8 +954,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="app" />
+    <configuration name="16-timer" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="16-timer" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -1061,8 +1005,110 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="timer" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="timer" />
+    <configuration name="17-progressbar" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="17-progressbar" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="18-seekbar" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="18-seekbar" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -1129,7 +1175,9 @@
       <item itemvalue="Android App.13-checkbox" />
       <item itemvalue="Android App.14-datepicker" />
       <item itemvalue="Android App.15-timepicker" />
-      <item itemvalue="Android App.timer" />
+      <item itemvalue="Android App.16-timer" />
+      <item itemvalue="Android App.17-progressbar" />
+      <item itemvalue="Android App.18-seekbar" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -1157,5 +1205,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/16-timer/src/main/java/com/example/timer/MainActivity.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/16-timer/src/main/java/com/example/timer/MainActivity.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
