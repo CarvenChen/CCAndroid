@@ -7,35 +7,68 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button_two"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_two"
-        android:textAllCaps="false"
-        android:layout_marginTop="100dp"/>
 
     <Button
-        android:id="@+id/button_three"
+        android:id="@+id/btn_two"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="列表Dialog"
-        android:textAllCaps="false"
-        android:layout_marginTop="30dp"/>
+        android:text="最普通的 dialog"
+        android:textAllCaps="false" />
 
     <Button
-        android:id="@+id/button_four"
+        android:id="@+id/btn_three"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="单选Dialog"
-        android:textAllCaps="false"
-        android:layout_marginTop="30dp"/>
+        android:text="三个按钮的 dialog"
+        android:textAllCaps="false" />
 
     <Button
-        android:id="@+id/button_five"
+        android:id="@+id/btn_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="多选Dialog"
-        android:textAllCaps="false"
-        android:layout_marginTop="30dp"/>
+        android:text="列表 dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_multi_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选 dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_single_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选 dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_waiting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="等待 dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加载 dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="输入 dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_my_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义 dialog"
+        android:textAllCaps="false" />
+
 </LinearLayout>

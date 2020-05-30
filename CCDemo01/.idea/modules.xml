@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/22-adapter/22-adapter.iml" filepath="$PROJECT_DIR$/22-adapter/22-adapter.iml" group="CCDemo01/22-adapter" />
       <module fileurl="file://$PROJECT_DIR$/23-baseadapter/23-baseadapter.iml" filepath="$PROJECT_DIR$/23-baseadapter/23-baseadapter.iml" group="CCDemo01/23-baseadapter" />
       <module fileurl="file://$PROJECT_DIR$/24-dialog/24-dialog.iml" filepath="$PROJECT_DIR$/24-dialog/24-dialog.iml" group="CCDemo01/24-dialog" />
+      <module fileurl="file://$PROJECT_DIR$/25-service/25-service.iml" filepath="$PROJECT_DIR$/25-service/25-service.iml" group="CCDemo01/25-service" />
       <module fileurl="file://$PROJECT_DIR$/CCDemo01.iml" filepath="$PROJECT_DIR$/CCDemo01.iml" group="CCDemo01" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CCDemo01/app" />
     </modules>

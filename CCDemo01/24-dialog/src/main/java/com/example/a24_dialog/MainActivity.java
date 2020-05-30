@@ -22,26 +22,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button buttonTwo = findViewById(R.id.button_two);
-        Button buttonThree = findViewById(R.id.button_three);
+        Button buttonTwo = findViewById(R.id.btn_two);
+        Button buttonThree = findViewById(R.id.btn_three);
+        Button btnList = findViewById(R.id.btn_list);
 
         buttonTwo.setOnClickListener(this);
         buttonThree.setOnClickListener(this);
+        btnList.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         int id = view.getId();
         switch (id) {
-            case R.id.button_two://最普通dialog
+            case R.id.btn_two://最普通dialog
                 showTwo();
                 break;
-            case R.id.button_three://三个按钮dialog
+            case R.id.btn_three://三个按钮dialog
                 showThree();
                 break;
-//            case R.id.btn_list://列表样式dialog
-//                showList();
-//                break;
+            case R.id.btn_list://列表样式dialog
+                showList();
+                break;
 //            case R.id.btn_multi_select://多选dialog
 //                showMultiSelect();
 //                break;
@@ -68,37 +70,71 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 两个按钮的 dialog
      */
     private void showTwo() {
+        builder = new AlertDialog.Builder(this)
+                .setIcon(R.mipmap.ic_launcher)
+                .setTitle("普通Dialog")
+                .setMessage("这个是最简单的Dialog了")
+                .setPositiveButton("确定", new DialogInterface.OnClickListener(){
 
-        builder = new AlertDialog.Builder(this).setIcon(R.mipmap.ic_launcher).setTitle("最普通dialog")
-                .setMessage("我是最简单的dialog").setPositiveButton("确定（积极）", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        //ToDo: 你想做的事情
-                        Toast.makeText(MainActivity.this, "确定按钮", Toast.LENGTH_LONG).show();
+                    public void onClick(DialogInterface dialog, int which) {
+
                     }
-                }).setNegativeButton("取消（消极）", new DialogInterface.OnClickListener() {
+                })
+                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        //ToDo: 你想做的事情
-                        Toast.makeText(MainActivity.this, "关闭按钮", Toast.LENGTH_LONG).show();
-                        dialogInterface.dismiss();
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(MainActivity.this, "关闭", Toast.LENGTH_LONG).show();
+                        dialog.dismiss();
                     }
                 });
         builder.create().show();
     }
 
     private void showThree() {
-        String[] items = {"111", "222", "333", "444"};
-        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        builder.setTitle("选择列表的标题");
-        builder.setItems(items, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
+        builder = new AlertDialog.Builder(MainActivity.this)
+                .setIcon(R.mipmap.ic_launcher)
+                .setTitle("三按钮选项")
+                .setMessage("三个按钮的Dialog")
+                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(MainActivity.this, "确定", Toast.LENGTH_LONG).show();
+                    }
+                })
+                .setNeutralButton("中立", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(MainActivity.this, "中立", Toast.LENGTH_LONG).show();
+                    }
+                })
+                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(MainActivity.this, "取消", Toast.LENGTH_LONG).show();
+                        dialog.dismiss();
+                    }
+                });
+        builder.create().show();
+    }
 
-            }
-        });
-//        builder.setNegativeButton()
+    private void showList() {
+        final String[] items = {"1", "2", "3", "4"};
+        builder = new  AlertDialog.Builder(this)
+                .setTitle("这个是标题")
+                .setIcon(R.mipmap.ic_launcher)
+                .setItems(items, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(MainActivity.this, "选择的文字为：" + items[which], Toast.LENGTH_LONG).show();
+                    }
+                })
+                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
 
+                    }
+                });
         builder.create().show();
     }
 }
