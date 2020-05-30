@@ -7,58 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1f0b5a9-deb7-4a32-bfae-5dd6d67a5523" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/25-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/androidTest/java/com/example/a25_service/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/java/com/example/a25_service/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-service/src/test/java/com/example/a25_service/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-relativelayout/02-relativelayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-relativelayout/02-relativelayout.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-linerlayout/03-linerlayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/03-linerlayout/03-linerlayout.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-GrideLayout/06-GrideLayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/06-GrideLayout/06-GrideLayout.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-layouts/07-layouts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/07-layouts/07-layouts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-editfield/08-editfield.iml" beforeDir="false" afterPath="$PROJECT_DIR$/08-editfield/08-editfield.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-qqspace/09-qqspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/09-qqspace/09-qqspace.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-radiobox/12-radiobox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12-radiobox/12-radiobox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17-progressbar/17-progressbar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/17-progressbar/17-progressbar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18-seekbar/18-seekbar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/18-seekbar/18-seekbar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-imageswitch/19-imageswitch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/19-imageswitch/19-imageswitch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21-listview/21-listview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/21-listview/21-listview.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24-dialog/24-dialog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/24-dialog/24-dialog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24-dialog/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/24-dialog/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24-dialog/src/main/java/com/example/a24_dialog/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/24-dialog/src/main/java/com/example/a24_dialog/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24-dialog/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/24-dialog/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-service/25-service.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1508,6 +1457,14 @@
       <option name="presentableId" value="Default" />
       <updated>1586853355303</updated>
     </task>
+    <task id="LOCAL-00001" summary="service">
+      <created>1590830137242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590830137242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1522,6 +1479,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="service" />
+    <option name="LAST_COMMIT_MESSAGE" value="service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
