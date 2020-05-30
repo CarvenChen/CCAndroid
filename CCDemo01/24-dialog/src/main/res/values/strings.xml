@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">24-Dialog</string>
+    <string name="button_two">普通Dialog</string>
+</resources>

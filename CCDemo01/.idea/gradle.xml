@@ -33,6 +33,7 @@
             <option value="$PROJECT_DIR$/21-listview" />
             <option value="$PROJECT_DIR$/22-adapter" />
             <option value="$PROJECT_DIR$/23-baseadapter" />
+            <option value="$PROJECT_DIR$/24-dialog" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
