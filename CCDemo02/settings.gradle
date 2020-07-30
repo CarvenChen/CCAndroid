@@ -1,3 +1,2 @@
-rootProject.name='CCDemo02'
 include ':app'
-include ':01-activity'
+rootProject.name = "CCDemo02"
