@@ -12,25 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1f0b5a9-deb7-4a32-bfae-5dd6d67a5523" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CCPhoto/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCPhoto/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCPhoto/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCPhoto/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCPhoto/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCPhoto/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCPhoto/app/src/main/java/com/example/ccphoto/HomeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CCPhoto/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-TableLayout/05-TableLayout.iml" beforeDir="false" afterPath="$PROJECT_DIR$/05-TableLayout/05-TableLayout.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-datepicker/14-datepicker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14-datepicker/14-datepicker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25-service/25-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/25-service/25-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28_9.0" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -39,7 +30,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -92,6 +88,18 @@
       <recent name="$PROJECT_DIR$/10-ccdian9/src/main/res/mipmap-hdpi" />
       <recent name="$PROJECT_DIR$/10-ccdian9/src/main/res/layout" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Android App.25-service">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">

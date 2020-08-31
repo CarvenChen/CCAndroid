@@ -1,0 +1,2 @@
+rootProject.name='CCDemo03'
+include ':app'
