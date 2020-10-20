@@ -1,6 +1,5 @@
 package com.example.ccphoto.fragment;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -14,18 +13,21 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.dueeeke.videoplayer.player.VideoViewManager;
+
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+
+import static android.content.Context.MODE_PRIVATE;
 
 public abstract class BaseFragment extends Fragment {
     protected View mRootView;
     private Unbinder unbinder;
 
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        if (this.mRootView == null) {
+        if (mRootView == null) {
             mRootView = inflater.inflate(initLayout(), container, false);
             initView();
         }
@@ -46,41 +48,58 @@ public abstract class BaseFragment extends Fragment {
     }
 
     protected abstract int initLayout();
+
     protected abstract void initView();
+
     protected abstract void initData();
 
-    void showToast(String msg) {
+    public void showToast(String msg) {
         Toast.makeText(getActivity(), msg, Toast.LENGTH_SHORT).show();
     }
 
-    void showToastSync(String msg) {
+    public void showToastSync(String msg) {
         Looper.prepare();
         Toast.makeText(getActivity(), msg, Toast.LENGTH_SHORT).show();
         Looper.loop();
     }
 
-    void navigatorToClass(Class cls) {
+    public void navigateTo(Class cls) {
         Intent in = new Intent(getActivity(), cls);
         startActivity(in);
     }
 
-    void navigatorToBundle(Class cls, Bundle bundle) {
-        Intent in = new Intent();
+    public void navigateToWithBundle(Class cls, Bundle bundle) {
+        Intent in = new Intent(getActivity(), cls);
         in.putExtras(bundle);
         startActivity(in);
     }
 
-    void saveStringToSp(String key, String val) {
-        SharedPreferences sp = getActivity().getSharedPreferences("sp_cc", Context.MODE_PRIVATE);
+    public void navigateToWithFlag(Class cls, int flags) {
+        Intent in = new Intent(getActivity(), cls);
+        in.setFlags(flags);
+        startActivity(in);
+    }
+
+    protected void insertVal(String key, String val) {
+        SharedPreferences sp = getActivity().getSharedPreferences("sp_cc", MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
         editor.putString(key, val);
         editor.commit();
     }
 
-    String getStringFromSp(String key) {
-        SharedPreferences sp = getActivity().getSharedPreferences("sp_cc", Context.MODE_PRIVATE);
+    protected String findByKey(String key) {
+        SharedPreferences sp = getActivity().getSharedPreferences("sp_cc", MODE_PRIVATE);
         return sp.getString(key, "");
     }
 
+    protected void removeByKey(String key) {
+        SharedPreferences sp = getActivity().getSharedPreferences("sp_cc", MODE_PRIVATE);
+        SharedPreferences.Editor edit = sp.edit();
+        edit.remove(key);
+        edit.commit();
+    }
 
+    protected VideoViewManager getVideoViewManager() {
+        return VideoViewManager.instance();
+    }
 }
