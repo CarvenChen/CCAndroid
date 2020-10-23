@@ -1,6 +1,7 @@
 package com.example.ccphoto.adapter;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,10 +14,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.dueeeke.videocontroller.component.PrepareView;
 import com.example.ccphoto.R;
+import com.example.ccphoto.View.CircleTransform;
+import com.example.ccphoto.api.Api;
+import com.example.ccphoto.api.ApiConfig;
+import com.example.ccphoto.api.CCCallBack;
 import com.example.ccphoto.entity.VideoEntity;
 import com.example.ccphoto.listener.OnItemChildClickListener;
 import com.example.ccphoto.listener.OnItemClickListener;
+import com.squareup.picasso.Picasso;
 
+import java.util.HashMap;
 import java.util.List;
 
 public class VideoAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
@@ -28,6 +35,10 @@ public class VideoAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     public VideoAdapter(Context mContext) {
         this.mContext = mContext;
+    }
+
+    public void setDatas(List<VideoEntity> datas) {
+        this.datas = datas;
     }
 
     public VideoAdapter(Context mContext, List<VideoEntity> datas) {
@@ -46,7 +57,19 @@ public class VideoAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         ViewHolder vh = (ViewHolder)holder;
+        VideoEntity videoEntity = datas.get(position);
+        vh.tvTitle.setText(videoEntity.getVtitle());
+        vh.tvAuthor.setText(videoEntity.getAuthor());
 
+        Picasso.get()
+                .load(videoEntity.getHeadurl())
+                .transform(new CircleTransform())
+                .into(vh.imgHeader);
+
+        Picasso.get()
+                .load(videoEntity.getCoverurl())
+                .into(vh.mThumb);
+        vh.mPosition = position;
     }
 
     @Override
@@ -94,12 +117,69 @@ public class VideoAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
                 view.setOnClickListener(this);
             }
 
+            imgCollect.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    int collectNum = Integer.parseInt(tvCollect.getText().toString());
+                    if (flagCollect) {
+                        //已收藏
+                        tvCollect.setText(String.valueOf(--collectNum));
+                        tvCollect.setTextColor(Color.parseColor("#161616"));
+                        imgCollect.setImageResource(R.mipmap.collect);
 
+                    } else {
+
+                    }
+                }
+            });
+
+            imgDianZan.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                }
+            });
+
+            view.setTag(this);
         }
 
         @Override
         public void onClick(View view) {
-
+            if (view.getId() == R.id.player_container) {
+                if (mOnItemChildClickListener != null) {
+                    mOnItemChildClickListener.onItemChildClick(mPosition);
+                }
+            } else {
+                if (mOnItemClickListener != null) {
+                    mOnItemClickListener.onItemClick(mPosition);
+                }
+            }
         }
+    }
+
+    private void updateCount(int vid, int type, boolean flag) {
+        HashMap<String, Object> params = new HashMap<String, Object>();
+        params.put("vid", vid);
+        params.put("type", type);
+        params.put("flag", flag);
+        Api.config(ApiConfig.VIDEO_UPDATE_COUNT, params).postRequest(mContext, new CCCallBack() {
+            @Override
+            public void onSuccess(String res) {
+
+            }
+
+            @Override
+            public void onFailure(Exception e) {
+
+            }
+        });
+    }
+
+    public void setOnItemChildClickListener(OnItemChildClickListener onItemChildClickListener) {
+        mOnItemChildClickListener = onItemChildClickListener;
+    }
+
+    public void setOnItemClickListener(OnItemClickListener onItemClickListener) {
+        mOnItemClickListener = onItemClickListener;
     }
 }
