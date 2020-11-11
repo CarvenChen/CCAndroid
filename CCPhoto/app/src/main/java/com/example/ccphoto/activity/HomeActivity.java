@@ -48,8 +48,8 @@ public class HomeActivity extends BaseActivity {
 
     @Override
     protected void initData() {
-        this.mFragments.add(new HomeFragment());
-        this.mFragments.add(new NewsFragment());
+        this.mFragments.add(HomeFragment.newInstance());
+        this.mFragments.add(NewsFragment.newsInstance());
         this.mFragments.add(new MyFragment());
 
         for (int i = 0; i < this.tabTitles.length; i++) {
@@ -69,7 +69,7 @@ public class HomeActivity extends BaseActivity {
             }
         });
 
-//        this.viewPager.setOffscreenPageLimit(mFragments.size());
+        this.viewPager.setOffscreenPageLimit(mFragments.size());
         this.viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
