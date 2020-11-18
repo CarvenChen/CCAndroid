@@ -27,7 +27,7 @@ public class HomeActivity extends BaseActivity {
     private int[] tabSelectedIcons = {R.mipmap.home_selected, R.mipmap.collect_selected, R.mipmap.my_selected};
 
     private ArrayList<Fragment> mFragments = new ArrayList<>();
-    private ArrayList<CustomTabEntity> tabEntityList = new ArrayList<>();
+    private ArrayList<CustomTabEntity> tabEntityList = new ArrayList<>(); 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
